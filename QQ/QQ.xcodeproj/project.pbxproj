@@ -13,6 +13,7 @@
 		1B5333461D3790CB007D4219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5333441D3790CB007D4219 /* Main.storyboard */; };
 		1B5333481D3790CB007D4219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5333471D3790CB007D4219 /* Assets.xcassets */; };
 		1B53334B1D3790CB007D4219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5333491D3790CB007D4219 /* LaunchScreen.storyboard */; };
+		1BF5D8CF1D379B8900E33693 /* YiDa_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5D8CE1D379B8900E33693 /* YiDa_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1B5333471D3790CB007D4219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B53334A1D3790CB007D4219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B53334C1D3790CB007D4219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF5D8CD1D379B8900E33693 /* YiDa_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiDa_VC.h; sourceTree = "<group>"; };
+		1BF5D8CE1D379B8900E33693 /* YiDa_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiDa_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1B5333491D3790CB007D4219 /* LaunchScreen.storyboard */,
 				1B53334C1D3790CB007D4219 /* Info.plist */,
 				1B53333B1D3790C9007D4219 /* Supporting Files */,
+				1BF5D8CD1D379B8900E33693 /* YiDa_VC.h */,
+				1BF5D8CE1D379B8900E33693 /* YiDa_VC.m */,
 			);
 			path = QQ;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				1B5333431D3790CA007D4219 /* ViewController.m in Sources */,
 				1B5333401D3790CA007D4219 /* AppDelegate.m in Sources */,
 				1B53333D1D3790CA007D4219 /* main.m in Sources */,
+				1BF5D8CF1D379B8900E33693 /* YiDa_VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				1B5333511D3790CB007D4219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
